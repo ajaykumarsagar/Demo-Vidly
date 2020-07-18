@@ -35,7 +35,18 @@ namespace Vidly.Controllers
         public ActionResult Create(Customer customer)
         {
             if (!ModelState.IsValid)
-            {
+            { 
+
+
+
+
+
+
+
+
+
+
+
                 var viewModel = new NewCustomerViewModel
                 {
                     Customer = customer,
